@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(198, 198, 198);
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputTask .submitTaskBtn.disabled{
+    background-color: rgb(211, 211, 211);
+    color: rgb(125, 125, 125);
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.submitTaskBtn{
+    border: none;
+    padding: 4px 10px;
+    background-color: rgb(147, 147, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.submitTaskBtn:hover{
+    background-color: rgb(177, 177, 255);
+}
+.submitTaskBtn:active{
+    background-color: rgb(117, 117, 225);
+}
+
+#inputField{
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 20px;
+    min-width: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(198, 198, 198);
+}
+
+.taskList{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 30px;
+    min-width: 300px;
+    display: none;
+}
+
+.listItem{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 20px 4px 4px;
+}
+
+.listDelBtn{
+    border: none;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.listDelBtn:hover{
+    color: white; 
+    background-color: rgb(255, 92, 92);
+}
+
+.listDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 5px 0px;
+    border-bottom: 1px solid black;
+    padding: 5px 5px 5px 30px;
+}
+
+.taskList, .listDiv, .listDelBtn{
+    background-color: rgb(220, 220, 220);
+}
+
+#clearAllBtn{
+    margin-top: 10px;
+}
