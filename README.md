@@ -23,7 +23,7 @@ JavaScript (Vanilla JS)
 
 📸 Preview
 
-![clideo_editor_4a1c3135de5b40b58bf4711e5d3760ad-ezgif com-crop](https://github.com/user-attachments/assets/ca34cc1b-f9a4-4242-812a-0df46b58ebfd)
+![clideo_editor_4a1c3135de5b40b58bf4711e5d3760ad-ezgif com-crop](https://github.com/user-attachments/assets/b6621761-5b16-42cc-9388-ed464c9ab318)
 
 📂 How to Use
 
