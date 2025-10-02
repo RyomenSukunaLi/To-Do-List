@@ -1,9 +1,12 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */ 
     background-color: rgb(198, 198, 198);
 }
 
