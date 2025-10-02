@@ -13,6 +13,8 @@ It helps you organize your daily tasks with ease, featuring add, edit, delete, a
 
 ❌ Clear all tasks at once
 
+💾 Persistent storage with LocalStorage (tasks remain saved after page reload)
+
 💻 Technologies Used
 
 HTML5
@@ -43,5 +45,3 @@ Add task categories (Work, Personal, Urgent)
 Add due dates for tasks
 
 Dark mode support
-
-Save tasks in localStorage
