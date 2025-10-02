@@ -16,6 +16,16 @@ inputField.addEventListener("input", event => {
 })
 
 submitTaskBtn.addEventListener("click", event => {
+    addTask();
+})
+
+inputField.addEventListener("keydown", event => {
+    if(event.key === "Enter"){
+        addTask();
+    }
+})
+
+function addTask(){
     const taskinfo = inputField.value.trim();
     
     inputField.value = "";
@@ -43,7 +53,8 @@ submitTaskBtn.addEventListener("click", event => {
     
     editTask(listItem, key);
     delTask(listDelBtn, listItem, listDiv, key);
-})
+}
+
 
 function delTask(listDelBtn, listItem, listDiv, key){
     
