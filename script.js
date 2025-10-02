@@ -36,7 +36,9 @@ function addTask(){
     let nextIndex = Date.now();
     let key = "Task : " + nextIndex;
     localStorage.setItem(key, taskinfo);
-
+    renderTask(taskinfo);
+}
+function renderTask(taskinfo, key){
     taskList.style.display = "block";
     const listDiv = document.createElement("div");
     const listItem = document.createElement("li");
